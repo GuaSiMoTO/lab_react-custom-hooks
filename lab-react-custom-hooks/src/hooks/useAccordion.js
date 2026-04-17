@@ -13,7 +13,7 @@ const useAccordion = (initialValue = false) => {
 
 
   // controles de open y close
-  const opnen = () => setIsOpen(true);
+  const open = () => setIsOpen(true);
   const close = () => setIsOpen(false);
 
   return { isOpen, toggle, open, close};
